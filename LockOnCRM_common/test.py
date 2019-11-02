@@ -5,7 +5,7 @@ import unittest
 
 
 class FlackTestCase(unittest.TestCase):
-    """A TestCase subclass with common functionality used by MicroFlack
+    """A TestCase subclass with common functionality used by LockOnCRM
     services.
     """
     def get_headers(self, basic_auth=None, token_auth=None):

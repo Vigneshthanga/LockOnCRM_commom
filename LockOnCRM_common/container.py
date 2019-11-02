@@ -4,7 +4,7 @@ import time
 
 import docker
 
-from microflack_common.etcd import etcd_client
+from lockoncrm_common.etcd import etcd_client
 
 docker_attrs = None
 

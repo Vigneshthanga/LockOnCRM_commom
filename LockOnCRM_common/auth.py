@@ -10,7 +10,7 @@ from flask import current_app, g, jsonify
 from flask_httpauth import HTTPTokenAuth
 import jwt
 
-from microflack_common.etcd import etcd_client
+from lockoncrm_common.etcd import etcd_client
 
 token_auth = HTTPTokenAuth('Bearer')
 token_optional_auth = HTTPTokenAuth('Bearer')
