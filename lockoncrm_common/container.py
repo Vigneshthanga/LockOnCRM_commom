@@ -137,6 +137,7 @@ def register():
                 etcd.write('/services/{}/upstream/{}'.format(service_name,
                                                              instance_name),
                            service_address, ttl=50)
+                print("we are here at register for "+ service_name)
         except:
             # we had a failure, hopefully we'll get it next time
             pass
