@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='LockOnCRM-Common',
+    name='lockoncrm-common',
     description='Common LockOnCRM classes and functions',
     version='0.4',
     packages=['lockoncrm_common'],
